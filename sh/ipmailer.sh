@@ -1,5 +1,6 @@
-#!/bin/sh -
+#!/bin/sh -e
 #About: this script sends an email if your IP address change, it's supposed to run on cron
+set -o pipefail
 
 email="rafael@rafalopes.com.br"
 
